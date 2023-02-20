@@ -1,7 +1,13 @@
+import { Link } from 'react-router-dom';
 import './Login.css';
+import Password from './Password';
 import Signup from './Signup';
 
+
+
+
 function Login(){
+
 
     return (
 
@@ -14,9 +20,11 @@ function Login(){
 <form>
 					<label for="chk" aria-hidden="true">Login</label>
 					<input type="email" name="email" placeholder="Email" required=""/>
-					<input type="password" name="pswd" placeholder="Password" required=""/>
-					<button>Login</button>
+					<Password/>
+
 </form>
+
+
 
 </div>
 

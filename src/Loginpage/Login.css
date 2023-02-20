@@ -88,3 +88,9 @@ button:hover{
 #chk:checked ~ .Signup label{
 	transform: scale(.6);
 }
+#forgot-password{
+	display: flex;
+	color: gray;
+	justify-content: center;
+	font-size: smaller;
+}
