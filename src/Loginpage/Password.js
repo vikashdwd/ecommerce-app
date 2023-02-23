@@ -9,7 +9,7 @@ function Password(){
     <input type="password" name="pswd" placeholder="Password" required=""/>
 					<button>Login</button>
 
-	<Link to="/forgotpass" id="forgot-password" onClick={()=>{}}>Forgot password?</Link>
+	<Link to="/forgotpass" id="forgot-password" >Forgot password?</Link>
     </div>
     );
 
